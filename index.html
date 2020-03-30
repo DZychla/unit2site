@@ -1,0 +1,72 @@
+<html> 
+    <head>
+        
+        <link href="mystyles.css" rel="stylesheet">
+        <script src="wrangled.json"></script>
+    </head>
+    
+    <body>
+        <img src="hbanner.jpg"  width="1175" height="200">
+        <div class="topnav">
+          <a class="active" href="index.html">Home</a>
+          <a href="problem.html">Problem</a>
+          <a href="solution.html">Solution</a>
+        </div>
+        
+        
+        
+        <img src="sdg.png" align="left"style="margin-bottom: 50px"width="350"height="350">
+        <br><br><br><br>
+        <h1>By 2030, ensure universal access to affordable, reliable and modern energy services</h1>
+      
+
+        <p>It is important to understand a problem before we can solve it. A major role in global warming is how we fuel our homes and businesses, and how we get around. Electricity / power generation is a significant cause of air pollution and the single largest cause of global warming in the US, according to the Union of Concerned Scientists. For several other countries this condition is similar.</p>
+        <br><br><br><br><hr><br><br><br>
+    
+  
+        <h1>The Problem</h1>
+            <img src="problem.jpg" alt="Home Page Problem" align="right" width="600" height="350">
+    <br>
+        <h3>- 'Dirty Energy' - coal, oil, natural gas still produces most electricity and fuel<br><br>- In 2017, 80% of electricity produced in the US and the primary energy produced in Canada was from non-renewable resources<br><br>- 2/3 of global greenhouse gas emissions are linked to burning fossil fuels for heating, eletricity, transport, and industry<br><br>- In the European Union, energy accounted for 78% of its total greenhouse gas emissions</h3> <br><br><br><br><hr><br>
+            
+    
+            
+            <!--Search Function-->
+        <h1>Precentage of population with primary reliance on clean fuels and technology</h1>  
+        <h8>Please insert full name of country with capital letters and spaces where necessary.</h8>
+        <br><br><br>
+        Enter Country Name: <input text="text" id="mysearch"> <!--User input-->
+        <button onclick="goSearch()">Submit</button><!--event-->
+        <h3 id="results"></h3><!--Area on page to show requested data-->
+        <br><br><br>
+        <h8>Disclaimer: Due to data accuracy, we are required to lower data above 95% to 95%, and raise data lower than 5% to 5%</h8>
+        <br><br><br><hr><br>
+            
+        <h1>The Solution</h1>
+            <img src="solution.jpg" alt="Home Page Solution" align="right"width="600"height="350">
+        <br>
+        
+        <h3>- Turning to renewable forms of energy such as wind, solar, hydroelectricity and geothermal<br><br>- Power smart building designs with passive heating and cooling systems<br><br>- Moving residential, commercial and public buildings in the direction of energy efficiency<br><br>- Ensuring that countries without access to renewable energy get that access<br><br><br>
+            </h3>
+
+     </body>
+      
+        <script>
+        
+            function goSearch() {
+                
+                var myinput = document.getElementById("mysearch").value; //input
+                var resultsdiv = document.getElementById("results"); // div objects
+                var newstring = "" // set 'build' string to empty string
+                for (country=0; country < data.length; country++) { // loop database
+                    // if current record equals user input, add to string var
+                    if (myinput == data[country]["GeoAreaName"]) {
+                        newstring = newstring + data[country]["Percent"] + "%";
+                    } 
+                } // end loop
+               
+                resultsdiv.innerHTML = newstring; // insert into HTML div object
+            } // end function 
+            
+        </script>
+</html>

@@ -1,0 +1,857 @@
+data = [
+  {
+    "GeoAreaName": "World",
+    "Percent": 61
+  },
+  {
+    "GeoAreaName": "Afghanistan",
+    "Percent": 34
+  },
+  {
+    "GeoAreaName": "Albania",
+    "Percent": 80
+  },
+  {
+    "GeoAreaName": "Oceania",
+    "Percent": 78
+  },
+  {
+    "GeoAreaName": "Algeria",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Northern Africa",
+    "Percent": 86
+  },
+  {
+    "GeoAreaName": "Andorra",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Northern America",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Angola",
+    "Percent": 49
+  },
+  {
+    "GeoAreaName": "Antigua and Barbuda",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Eastern Asia",
+    "Percent": 62
+  },
+  {
+    "GeoAreaName": "Azerbaijan",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Argentina",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Southern Asia",
+    "Percent": 45
+  },
+  {
+    "GeoAreaName": "South-Eastern Asia",
+    "Percent": 60
+  },
+  {
+    "GeoAreaName": "Australia",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Austria",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Bahamas",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Bahrain",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Bangladesh",
+    "Percent": 19
+  },
+  {
+    "GeoAreaName": "Armenia",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Barbados",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Australia and New Zealand",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Belgium",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Central and Southern Asia",
+    "Percent": 46
+  },
+  {
+    "GeoAreaName": "Bhutan",
+    "Percent": 79
+  },
+  {
+    "GeoAreaName": "Bolivia (Plurinational State of)",
+    "Percent": 83
+  },
+  {
+    "GeoAreaName": "Bosnia and Herzegovina",
+    "Percent": 63
+  },
+  {
+    "GeoAreaName": "Botswana",
+    "Percent": 59
+  },
+  {
+    "GeoAreaName": "Brazil",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Belize",
+    "Percent": 87
+  },
+  {
+    "GeoAreaName": "Solomon Islands",
+    "Percent": 8
+  },
+  {
+    "GeoAreaName": "Brunei Darussalam",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Bulgaria",
+    "Percent": 91
+  },
+  {
+    "GeoAreaName": "Myanmar",
+    "Percent": 20
+  },
+  {
+    "GeoAreaName": "Burundi",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Belarus",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Cambodia",
+    "Percent": 20
+  },
+  {
+    "GeoAreaName": "Cameroon",
+    "Percent": 25
+  },
+  {
+    "GeoAreaName": "Canada",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Cabo Verde",
+    "Percent": 75
+  },
+  {
+    "GeoAreaName": "Central African Republic",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Central Asia",
+    "Percent": 91
+  },
+  {
+    "GeoAreaName": "Sri Lanka",
+    "Percent": 28
+  },
+  {
+    "GeoAreaName": "Western Asia",
+    "Percent": 94
+  },
+  {
+    "GeoAreaName": "Chad",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Europe",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Chile",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "China",
+    "Percent": 58
+  },
+  {
+    "GeoAreaName": "Colombia",
+    "Percent": 94
+  },
+  {
+    "GeoAreaName": "Comoros",
+    "Percent": 10
+  },
+  {
+    "GeoAreaName": "Congo",
+    "Percent": 25
+  },
+  {
+    "GeoAreaName": "Democratic Republic of the Congo",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Cook Islands",
+    "Percent": 84
+  },
+  {
+    "GeoAreaName": "Costa Rica",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Croatia",
+    "Percent": 93
+  },
+  {
+    "GeoAreaName": "Cuba",
+    "Percent": 90
+  },
+  {
+    "GeoAreaName": "Cyprus",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Sub-Saharan Africa",
+    "Percent": 14
+  },
+  {
+    "GeoAreaName": "Czechia",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Benin",
+    "Percent": 6
+  },
+  {
+    "GeoAreaName": "Denmark",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Dominica",
+    "Percent": 91
+  },
+  {
+    "GeoAreaName": "Dominican Republic",
+    "Percent": 91
+  },
+  {
+    "GeoAreaName": "Ecuador",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "El Salvador",
+    "Percent": 89
+  },
+  {
+    "GeoAreaName": "Equatorial Guinea",
+    "Percent": 37
+  },
+  {
+    "GeoAreaName": "Ethiopia",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Eritrea",
+    "Percent": 18
+  },
+  {
+    "GeoAreaName": "Estonia",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Fiji",
+    "Percent": 51
+  },
+  {
+    "GeoAreaName": "Finland",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "France",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Djibouti",
+    "Percent": 10
+  },
+  {
+    "GeoAreaName": "Gabon",
+    "Percent": 81
+  },
+  {
+    "GeoAreaName": "Georgia",
+    "Percent": 79
+  },
+  {
+    "GeoAreaName": "Gambia",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Germany",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Ghana",
+    "Percent": 25
+  },
+  {
+    "GeoAreaName": "Kiribati",
+    "Percent": 6
+  },
+  {
+    "GeoAreaName": "Greece",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Grenada",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Guatemala",
+    "Percent": 43
+  },
+  {
+    "GeoAreaName": "Guinea",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Guyana",
+    "Percent": 77
+  },
+  {
+    "GeoAreaName": "Haiti",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Honduras",
+    "Percent": 54
+  },
+  {
+    "GeoAreaName": "Hungary",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Iceland",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "India",
+    "Percent": 45
+  },
+  {
+    "GeoAreaName": "Indonesia",
+    "Percent": 65
+  },
+  {
+    "GeoAreaName": "Iran (Islamic Republic of)",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Iraq",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Ireland",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Israel",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Italy",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Côte d'Ivoire",
+    "Percent": 21
+  },
+  {
+    "GeoAreaName": "Jamaica",
+    "Percent": 92
+  },
+  {
+    "GeoAreaName": "Japan",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Kazakhstan",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Jordan",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Kenya",
+    "Percent": 14
+  },
+  {
+    "GeoAreaName": "Democratic People's Republic of Korea",
+    "Percent": 11
+  },
+  {
+    "GeoAreaName": "Republic of Korea",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Kuwait",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Kyrgyzstan",
+    "Percent": 83
+  },
+  {
+    "GeoAreaName": "Lao People's Democratic Republic",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Latin America and the Caribbean",
+    "Percent": 88
+  },
+  {
+    "GeoAreaName": "Lesotho",
+    "Percent": 33
+  },
+  {
+    "GeoAreaName": "Latvia",
+    "Percent": 95  },
+  {
+    "GeoAreaName": "Liberia",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Landlocked developing countries (LLDCs)",
+    "Percent": 27
+  },
+  {
+    "GeoAreaName": "Lithuania",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Luxembourg",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Madagascar",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Malawi",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Malaysia",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Maldives",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Mali",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Malta",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Mauritania",
+    "Percent": 46
+  },
+  {
+    "GeoAreaName": "Mauritius",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Mexico",
+    "Percent": 86
+  },
+  {
+    "GeoAreaName": "Monaco",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Mongolia",
+    "Percent": 41
+  },
+  {
+    "GeoAreaName": "Republic of Moldova",
+    "Percent": 94
+  },
+  {
+    "GeoAreaName": "Montenegro",
+    "Percent": 66
+  },
+  {
+    "GeoAreaName": "Morocco",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Mozambique",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Oman",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Europe and Northern America",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Developed regions (Europe, Cyprus, Israel, Northern America, Japan, Australia & New Zealand)",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Developing regions",
+    "Percent": 53
+  },
+  {
+    "GeoAreaName": "Namibia",
+    "Percent": 44
+  },
+  {
+    "GeoAreaName": "Nauru",
+    "Percent": 92
+  },
+  {
+    "GeoAreaName": "Nepal",
+    "Percent": 29
+  },
+  {
+    "GeoAreaName": "Netherlands",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Oceania (exc. Australia and New Zealand)",
+    "Percent": 17
+  },
+  {
+    "GeoAreaName": "Vanuatu",
+    "Percent": 11
+  },
+  {
+    "GeoAreaName": "New Zealand",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Nicaragua",
+    "Percent": 54
+  },
+  {
+    "GeoAreaName": "Niger",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Nigeria",
+    "Percent": 7
+  },
+  {
+    "GeoAreaName": "Niue",
+    "Percent": 93
+  },
+  {
+    "GeoAreaName": "Norway",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Micronesia (Federated States of)",
+    "Percent": 12
+  },
+  {
+    "GeoAreaName": "Marshall Islands",
+    "Percent": 66
+  },
+  {
+    "GeoAreaName": "Palau",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Pakistan",
+    "Percent": 44
+  },
+  {
+    "GeoAreaName": "Panama",
+    "Percent": 90
+  },
+  {
+    "GeoAreaName": "Papua New Guinea",
+    "Percent": 12
+  },
+  {
+    "GeoAreaName": "Paraguay",
+    "Percent": 66
+  },
+  {
+    "GeoAreaName": "Peru",
+    "Percent": 76
+  },
+  {
+    "GeoAreaName": "Philippines",
+    "Percent": 44
+  },
+  {
+    "GeoAreaName": "Poland",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Portugal",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Guinea-Bissau",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Timor-Leste",
+    "Percent": 11
+  },
+  {
+    "GeoAreaName": "Qatar",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Romania",
+    "Percent": 89
+  },
+  {
+    "GeoAreaName": "Russian Federation",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Rwanda",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Saint Kitts and Nevis",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Saint Lucia",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Saint Vincent and the Grenadines",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "San Marino",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Sao Tome and Principe",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Saudi Arabia",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Senegal",
+    "Percent": 31
+  },
+  {
+    "GeoAreaName": "Serbia",
+    "Percent": 74
+  },
+  {
+    "GeoAreaName": "Seychelles",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Sierra Leone",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Singapore",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Slovakia",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Viet Nam",
+    "Percent": 70
+  },
+  {
+    "GeoAreaName": "Slovenia",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Somalia",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "South Africa",
+    "Percent": 86
+  },
+  {
+    "GeoAreaName": "Zimbabwe",
+    "Percent": 29
+  },
+  {
+    "GeoAreaName": "Small island developing States (SIDS)",
+    "Percent": 57
+  },
+  {
+    "GeoAreaName": "Spain",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "South Sudan",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Sudan",
+    "Percent": 44
+  },
+  {
+    "GeoAreaName": "Suriname",
+    "Percent": 91
+  },
+  {
+    "GeoAreaName": "Northern Africa and Western Asia",
+    "Percent": 90
+  },
+  {
+    "GeoAreaName": "Eswatini",
+    "Percent": 51
+  },
+  {
+    "GeoAreaName": "Sweden",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Eastern and South-Eastern Asia",
+    "Percent": 61
+  },
+  {
+    "GeoAreaName": "Switzerland",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Syrian Arab Republic",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Tajikistan",
+    "Percent": 83
+  },
+  {
+    "GeoAreaName": "Thailand",
+    "Percent": 78
+  },
+  {
+    "GeoAreaName": "Togo",
+    "Percent": 8
+  },
+  {
+    "GeoAreaName": "Tonga",
+    "Percent": 55
+  },
+  {
+    "GeoAreaName": "Trinidad and Tobago",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "United Arab Emirates",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Tunisia",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Turkey",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Turkmenistan",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Tuvalu",
+    "Percent": 52
+  },
+  {
+    "GeoAreaName": "Uganda",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "Ukraine",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "North Macedonia",
+    "Percent": 66
+  },
+  {
+    "GeoAreaName": "Egypt",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "United Kingdom of Great Britain and Northern Ireland",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "United Republic of Tanzania",
+    "Percent": 5
+  },
+  {
+    "GeoAreaName": "United States of America",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Burkina Faso",
+    "Percent": 10
+  },
+  {
+    "GeoAreaName": "Uruguay",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Uzbekistan",
+    "Percent": 92
+  },
+  {
+    "GeoAreaName": "Venezuela (Bolivarian Republic of)",
+    "Percent": 95
+  },
+  {
+    "GeoAreaName": "Samoa",
+    "Percent": 31
+  },
+  {
+    "GeoAreaName": "Yemen",
+    "Percent": 63
+  },
+  {
+    "GeoAreaName": "Zambia",
+    "Percent": 16
+  }
+]
